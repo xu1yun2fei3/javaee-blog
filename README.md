@@ -45,7 +45,7 @@ java web博客网站，尽最大可能实现mvc模式，没有使用到框架，
 * blog/db 非主要业务的数据库操作
 * blog/filter 过滤器
 * blog/junit 测试包
-* blog/model bean包
+* blog/model bean包:用来在代码中表示数据库对象
 * blog/service 面向web的服务层
 * blog/servlet 主要的控制器servlet
 * blog/utils 工具包
@@ -54,7 +54,7 @@ java web博客网站，尽最大可能实现mvc模式，没有使用到框架，
 
 * admin 管理员网页
 * css 样式
-* editormd 
+* editormd 博客编写markdown的相应代码，直接引入的
 * img 图片
 * js javascript
 * page 主要网页
@@ -84,20 +84,17 @@ java web博客网站，尽最大可能实现mvc模式，没有使用到框架，
 
 ### 图片预览
 
-![无法显示图片](https://github.com/Lemonreds/MyBlog/blob/master/screenshot/1.png)
+![avatar](/screenshot/1.png)
 
-![无法显示图片](https://github.com/Lemonreds/MyBlog/blob/master/screenshot/2.png)
+![avatar](/screenshot/2.png)
 
-![无法显示图片](https://github.com/Lemonreds/MyBlog/blob/master/screenshot/3.png)
+![avatar](/screenshot/3.png)
 
-![无法显示图片](https://github.com/Lemonreds/MyBlog/blob/master/screenshot/4.png)
+![avatar](/screenshot/4.png)
 
-![无法显示图片](https://github.com/Lemonreds/MyBlog/blob/master/screenshot/5.png)
+![avatar](/screenshot/5.png)
 
-![无法显示图片](https://github.com/Lemonreds/MyBlog/blob/master/screenshot/6.png)
+![avatar](/screenshot/6.png)
 
-![无法显示图片](https://github.com/Lemonreds/MyBlog/blob/master/screenshot/7.png)
+![avatar](/screenshot/7.png)
 
-### 最后
-
-JSP注定要凉凉...

@@ -35,13 +35,13 @@
 					<h2>
 						<a href="/Blog/index.jsp">MyBlog</a>
 					</h2>
-					<h5 class="text-muted">Winner Winner Chicken Dinner!</h5>
+                    <h5 class="text-muted">大吉大利，今晚吃鸡！</h5>
 				</div>
 
 				<div class="c_center" id="person_info">
-					<img src="/Blog/img/header.jpg" height="130" width="130"
-						alt="what?" class="img-circle">
-					<h5 class="text-muted">Chicken Dinner Again!</h5>
+                    <img src="/Blog/img/xiong.gif" height="130" width="130"
+                         alt="what?" class="img-circle">
+                    <h5 class="text-muted">啦啦啦啦，打不到我吧，我就是这么强大</h5>
 				</div>
 
 				<div id="list">
@@ -102,7 +102,7 @@
 	</div>	
 	<!-- container -->
 	<div id="footer">
-		<a href="#">&nbsp;&nbsp;MyBlog</a>
+        <a href="#">&nbsp;&nbsp;M个人博客系统</a>
 	</div>
 	<!-- footer -->
 </body>

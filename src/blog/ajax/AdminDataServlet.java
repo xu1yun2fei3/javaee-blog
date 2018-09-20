@@ -20,9 +20,9 @@ public class AdminDataServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		// 鑾峰彇鎿嶄綔鐮�
+        //
 		String op = request.getParameter("op");
-		// 鍒濆鍖栨湇鍔″璞�
+        //
 		AdminService as = AdminService.getInstance();
 
 		switch (op) {
@@ -31,11 +31,11 @@ public class AdminDataServlet extends HttpServlet {
 
 			String a_id1 = request.getParameter("article_id");
 			request.setAttribute("edit_article", as.getArticle(a_id1));
-			// 鑾峰彇鍒嗙被
+            //
 			ArticleService ase = ArticleService.getInstance();
 			Map sort_count = ase.getSortAndCount();
 			request.setAttribute("sort_count", sort_count);
-			// 鑾峰彇鏍囩
+            //
 			TagService tg = TagService.getInstance();
 			List all_tag = tg.getAllTag();
 			request.setAttribute("all_tag", all_tag);

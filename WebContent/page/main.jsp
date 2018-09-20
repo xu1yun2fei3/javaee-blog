@@ -25,14 +25,14 @@
 
 				<div id="title">
 					<h2><a href="/Blog/login.html">MyBlog</a></h2>
-					<h5 class="text-muted">Winner Winner Chicken Dinner!</h5>
+                    <h5 class="text-muted">copy,赋值，ctrl+c。</h5>
 				</div>
 
 				<div class="c_center" id="person_info">
-					<img src="/Blog/img/header.jpg" height="130" width="130"
-						alt="丢失了我的头像?" class="img-circle">
-					<h4 class="text-muted">Lemonreds</h4>
-					<h5 class="text-muted">星星和浮云.</h5>
+                    <img src="/Blog/img/xiong.gif" height="130" width="130"
+                         alt="丢失了我的头像?" class="img-circle">
+                    <h4 class="text-muted">许云飞：嘿嘿现在是我的了</h4>
+                    <h5 class="text-muted">啦啦啦啦，打不到我吧，哈哈哈哈</h5>
 				</div>
 
 				<div class="c_center">
@@ -169,7 +169,7 @@
 			</div><!-- container -->
 	<div id="footer">
 		<div>
-			<a href="https://github.com/Lemonreds"><img src="/Blog/img/github.png"width="20px" height="20px" class="img-circle">&nbsp;&nbsp;GitHub</a>
+            <a href="about.html"><img src="../img/xingkong.jpg" width="20px" height="20px" class="img-circle">&nbsp;&nbsp;GitHub</a>
 			&nbsp;|
 			<a href="#">&nbsp;&nbsp;MyBlog</a>
 			<br/>

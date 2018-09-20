@@ -13,10 +13,10 @@ public class UserTest {
 
 	@Test
 	public void testLogin() throws Exception {
-		// String name="myblog";
-		// String password="123";
-		String name = "my";
-		String password = "1234";
+        // String name="xuyunfei";
+        // String password="19971221xyf";
+        String name = "xuyunfei";
+        String password = "19971221xyf";
 
 		UserDao userDao = UserDaoImpl.getInstance();
 		User user = userDao.login(name, password);

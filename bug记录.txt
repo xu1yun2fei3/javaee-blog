@@ -1,0 +1,12 @@
+﻿1.评论文章提交出错
+2.tagtest测试出错：Cannot add or update a child row: a foreign key constraint fails (`myblog`.`t_tag`, CONSTRAINT `t_tag_ibfk_1` FOREIGN KEY (`id`) REFERENCES `t_article` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION)
+3.login测试：出错，密码显示为用户名
+4.关于页面出现乱码
+5.打开的首页是index.jsp,改为login.html              在web.xml修改wolcome注册
+6.点击日志标签，链接无效
+7.github地址链接修改
+8.点赞提示乱码 
+9.博客markdown编写代码edictormd乱码                                       admin下的result.jsp文件开头添加<%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
+10.缺少用户注册
+11.admin下文件result.jsp文件乱码	解决
+12.登录验证未实现

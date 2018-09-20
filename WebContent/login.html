@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>ç™»å½• | MyBlog</title>
+	<title>µÇÂ¼ | MyBlog</title>
  	<!-- Bootstrap core CSS -->
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->  
-    <link rel="stylesheet" href="/Blog/css/public.css" /> 
-    <link rel="stylesheet" href="/Blog/css/login.css" />  
+    <!-- Custom styles for this template -->
+	<link rel="stylesheet" href="/Blog/css/public.css"/>
+	<link rel="stylesheet" href="/Blog/css/login.css"/>
+	<meta charset="GB18030">
 </head>
 <body>
 	<div class="container">
@@ -16,53 +16,55 @@
 			method="post">
 
 			<h1>
-				<a href="/Blog/index.jsp">MyBlog</a>
+				<a href="/Blog/index.jsp" style="color:white;">¸öÈË²©¿ÍÏµÍ³</a>
 			</h1>
 
-			<label 
-			for="input" 
-			class="sr-only">ç”¨æˆ·å</label> 
-			
-			<input 
-			type="text" 
-			id="input" 
-			class="form-control" 
-			placeholder="ç”¨æˆ·å" 
-			name="username"
-			required>
-			
-			<label 
-			for="inputPassword" 
-			class="sr-only">å¯†ç </label>
-			
-			<input 
-			type="password" 
-			id="inputPassword" 
-			class="form-control"
-			placeholder="å¯†ç " 
-			name="password" 
-			required>
+			<label
+					for="input"
+					class="sr-only">ÓÃ»§Ãû</label>
 
-			<button 
-			class="btn btn-lg btn-primary btn-block" 
-			type="submit"
-			id="submit">ç™»å½•</button>
+			<input
+					type="text"
+					id="input"
+					class="form-control"
+					placeholder="ÓÃ»§Ãû"
+					name="username"
+					required>
+			
+			<label
+					for="inputPassword"
+					class="sr-only">ÃÜÂë</label>
+			
+			<input
+					type="password"
+					id="inputPassword"
+					class="form-control"
+					placeholder="ÃÜÂë"
+					name="password"
+					required>
 
-			<a 
-			class="visitor" 
-			href="/Blog/index.jsp">è®¿å®¢ç™»å½•</a>
+			<button
+					class="btn btn-lg btn-primary btn-block"
+					type="submit"
+					id="submit">µÇÂ¼
+			</button>
+
 		</form>
-	</div>
 
-
-	<div id="footer">
-		<a target="_blank" 
-			href="https://github.com/Lemonreds">
-		<img src="/Blog/img/github.png"	
-		width="22px" 
-		height="22px" class="img-circle">GitHub</a>
-		by lemonreds.		
+		<button
+				class="btn btn-lg btn-primary btn-block"
+				type="submit"
+				id="">×¢²á
+		</button>
+		<!--×¢²áµÄIDÔÝ¶¨Îªregister-->
+		<form
+				action="/Blog/LoginServlet"
+				method="post">
+			<a
+					class="visitor"
+					href="/Blog/index.jsp">·Ã¿ÍµÇÂ¼</a>
+		</form>
 	</div>
 	<!-- footer -->
 </body>
-</html>
+</html>register
